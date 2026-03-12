@@ -1,0 +1,521 @@
+
+> rev-hire-frontend@0.0.0 test
+> ng test --watch=false
+
+- Generating browser application bundles (phase: setup)...
+√ Browser application bundle generation complete.
+10 03 2026 11:15:39.178:INFO [karma-server]: Karma v6.4.4 server started at http://localhost:9876/
+10 03 2026 11:15:39.186:INFO [launcher]: Launching browsers Chrome with concurrency unlimited
+10 03 2026 11:15:39.201:INFO [launcher]: Starting browser Chrome
+10 03 2026 11:15:43.043:INFO [Chrome 145.0.0.0 (Windows 10)]: Connected on socket 1lx0f_tQJ7WaHZVZAAAB with id 56775730
+Chrome 145.0.0.0 (Windows 10): Executed 0 of 213[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 1 of 213[32m SUCCESS[39m (0 secs / 0.059 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 2 of 213[32m SUCCESS[39m (0 secs / 0.071 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 3 of 213[32m SUCCESS[39m (0 secs / 0.082 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 4 of 213[32m SUCCESS[39m (0 secs / 0.084 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 5 of 213[32m SUCCESS[39m (0 secs / 0.093 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 6 of 213[32m SUCCESS[39m (0 secs / 0.364 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) LoginComponent onSubmit() should call authService.login with form values FAILED[39m
+	Error: 3 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 7 of 213[31m (1 FAILED)[39m (0 secs / 0.698 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 8 of 213[31m (1 FAILED)[39m (0 secs / 0.735 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 9 of 213[31m (1 FAILED)[39m (0 secs / 0.758 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 10 of 213[31m (1 FAILED)[39m (0 secs / 0.786 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 11 of 213[31m (1 FAILED)[39m (0 secs / 0.82 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 12 of 213[31m (1 FAILED)[39m (0 secs / 0.873 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 13 of 213[31m (1 FAILED)[39m (0 secs / 0.899 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 14 of 213[31m (1 FAILED)[39m (0 secs / 0.943 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 15 of 213[31m (1 FAILED)[39m (0 secs / 0.965 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 16 of 213[31m (1 FAILED)[39m (0 secs / 0.982 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 17 of 213[31m (1 FAILED)[39m (0 secs / 0.992 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 18 of 213[31m (1 FAILED)[39m (0 secs / 0.997 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 19 of 213[31m (1 FAILED)[39m (0 secs / 1.003 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 20 of 213[31m (1 FAILED)[39m (0 secs / 1.008 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 21 of 213[31m (1 FAILED)[39m (0 secs / 1.013 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 22 of 213[31m (1 FAILED)[39m (0 secs / 1.017 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 23 of 213[31m (1 FAILED)[39m (0 secs / 1.022 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 24 of 213[31m (1 FAILED)[39m (0 secs / 1.028 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 25 of 213[31m (1 FAILED)[39m (0 secs / 1.038 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 26 of 213[31m (1 FAILED)[39m (0 secs / 1.045 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 27 of 213[31m (1 FAILED)[39m (0 secs / 1.049 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 28 of 213[31m (1 FAILED)[39m (0 secs / 1.056 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 29 of 213[31m (1 FAILED)[39m (0 secs / 1.061 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 30 of 213[31m (1 FAILED)[39m (0 secs / 1.263 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 31 of 213[31m (1 FAILED)[39m (0 secs / 1.289 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 32 of 213[31m (1 FAILED)[39m (0 secs / 1.317 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 33 of 213[31m (1 FAILED)[39m (0 secs / 1.345 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 34 of 213[31m (1 FAILED)[39m (0 secs / 1.388 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 35 of 213[31m (1 FAILED)[39m (0 secs / 1.444 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 36 of 213[31m (1 FAILED)[39m (0 secs / 1.485 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 37 of 213[31m (1 FAILED)[39m (0 secs / 1.516 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 38 of 213[31m (1 FAILED)[39m (0 secs / 1.561 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 39 of 213[31m (1 FAILED)[39m (0 secs / 1.594 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 40 of 213[31m (1 FAILED)[39m (0 secs / 1.633 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 41 of 213[31m (1 FAILED)[39m (0 secs / 1.672 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 42 of 213[31m (1 FAILED)[39m (0 secs / 1.705 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 43 of 213[31m (1 FAILED)[39m (0 secs / 1.731 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 44 of 213[31m (1 FAILED)[39m (0 secs / 1.773 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 45 of 213[31m (1 FAILED)[39m (0 secs / 1.816 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 46 of 213[31m (1 FAILED)[39m (0 secs / 1.85 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 47 of 213[31m (1 FAILED)[39m (0 secs / 1.879 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 48 of 213[31m (1 FAILED)[39m (0 secs / 1.904 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 49 of 213[31m (1 FAILED)[39m (0 secs / 1.927 secs)
+[1A[2KERROR: [36mError: NG04002: Cannot match any routes. URL Segment: 'employer/dashboard'
+Error: NG04002: Cannot match any routes. URL Segment: 'employer/dashboard'
+    at Recognizer.noMatchError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3780:16)
+    at selector (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3810:28)
+    at onError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/catchError.js:10:39)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js:23:21)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)[39m
+Chrome 145.0.0.0 (Windows 10): Executed 49 of 213[31m (1 FAILED)[39m (0 secs / 1.927 secs)
+ERROR: Error: NG04002: Cannot match any routes. URL Segment: 'employer/dashboard'
+Error: NG04002: Cannot match any routes. URL Segment: 'employer/dashboard'
+    at Recognizer.noMatchError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3780:16)
+    at selector (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3810:28)
+    at onError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/catchError.js:10:39)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js:23:21)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 50 of 213[31m (1 FAILED)[39m (0 secs / 1.932 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 51 of 213[31m (1 FAILED)[39m (0 secs / 1.937 secs)
+[1A[2KERROR: [36mError: NG04002: Cannot match any routes. URL Segment: 'auth/login'
+Error: NG04002: Cannot match any routes. URL Segment: 'auth/login'
+    at Recognizer.noMatchError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3780:16)
+    at selector (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3810:28)
+    at onError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/catchError.js:10:39)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js:23:21)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)[39m
+Chrome 145.0.0.0 (Windows 10): Executed 51 of 213[31m (1 FAILED)[39m (0 secs / 1.937 secs)
+ERROR: Error: NG04002: Cannot match any routes. URL Segment: 'auth/login'
+Error: NG04002: Cannot match any routes. URL Segment: 'auth/login'
+    at Recognizer.noMatchError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3780:16)
+    at selector (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3810:28)
+    at onError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/catchError.js:10:39)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js:23:21)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 52 of 213[31m (1 FAILED)[39m (0 secs / 1.941 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 53 of 213[31m (1 FAILED)[39m (0 secs / 1.951 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 54 of 213[31m (1 FAILED)[39m (0 secs / 1.959 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 55 of 213[31m (1 FAILED)[39m (0 secs / 1.961 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) Seeker ProfileComponent should load profile and resume on init FAILED[39m
+	Expected spy ProfileService.getResume to have been called with:
+	  [ 5 ]
+	but it was never called.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/profile/profile.component.spec.ts:77:41)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	Expected true to be false.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/profile/profile.component.spec.ts:79:33)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+Chrome 145.0.0.0 (Windows 10): Executed 56 of 213[31m (2 FAILED)[39m (0 secs / 2.11 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 57 of 213[31m (2 FAILED)[39m (0 secs / 2.118 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 58 of 213[31m (2 FAILED)[39m (0 secs / 2.126 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 59 of 213[31m (2 FAILED)[39m (0 secs / 2.133 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 60 of 213[31m (2 FAILED)[39m (0 secs / 2.141 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) Seeker ProfileComponent saveProfile() should call profileService.updateProfile FAILED[39m
+	Error: 3 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 61 of 213[31m (3 FAILED)[39m (0 secs / 2.182 secs)
+[1A[2KERROR: [36mTypeError: this.authService.isEmployer is not a function
+TypeError: this.authService.isEmployer is not a function
+    at apply (http://localhost:9876/_karma_webpack_/webpack:/src/app/features/auth/login/login.component.ts:276:34)
+    at _ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:369:28)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+    at _ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:368:34)
+    at ZoneImpl.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:111:43)
+    at apply (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:2538:40)
+    at _ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:402:33)
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone-testing.js:2112:39)
+    at _ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:401:38)
+    at ZoneImpl.runTask (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:159:47)[39m
+Chrome 145.0.0.0 (Windows 10): Executed 61 of 213[31m (3 FAILED)[39m (0 secs / 2.182 secs)
+ERROR: TypeError: this.authService.isEmployer is not a function
+TypeError: this.authService.isEmployer is not a function
+    at apply (http://localhost:9876/_karma_webpack_/webpack:/src/app/features/auth/login/login.component.ts:276:34)
+    at _ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:369:28)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+    at _ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:368:34)
+    at ZoneImpl.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:111:43)
+    at apply (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:2538:40)
+    at _ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:402:33)
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone-testing.js:2112:39)
+    at _ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:401:38)
+    at ZoneImpl.runTask (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:159:47)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) Seeker ProfileComponent saveProfile() should set isEditing = false on success FAILED[39m
+	Error: 3 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 62 of 213[31m (4 FAILED)[39m (0 secs / 2.199 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 63 of 213[31m (4 FAILED)[39m (0 secs / 2.206 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 64 of 213[31m (4 FAILED)[39m (0 secs / 2.212 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 65 of 213[31m (4 FAILED)[39m (0 secs / 2.219 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 66 of 213[31m (4 FAILED)[39m (0 secs / 2.225 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) Seeker ProfileComponent profileStrength getter should return 100 when all fields complete FAILED[39m
+	Expected 60 to be greater than or equal 80.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/profile/profile.component.spec.ts:97:41)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+Chrome 145.0.0.0 (Windows 10): Executed 67 of 213[31m (5 FAILED)[39m (0 secs / 2.24 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 68 of 213[31m (5 FAILED)[39m (0 secs / 2.247 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) Seeker ProfileComponent parsedSkills / parsedEducation / parsedExperience should parse experience from resume experienceList FAILED[39m
+	Expected 0 to be 1.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/profile/profile.component.spec.ts:130:49)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	Expected undefined to be 'TechCorp'.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/profile/profile.component.spec.ts:131:45)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+Chrome 145.0.0.0 (Windows 10): Executed 69 of 213[31m (6 FAILED)[39m (0 secs / 2.255 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) Seeker ProfileComponent parsedSkills / parsedEducation / parsedExperience should parse skills from resume skillsList FAILED[39m
+	Expected 0 to be 2.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/profile/profile.component.spec.ts:120:45)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	Expected undefined to be 'Java'.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/profile/profile.component.spec.ts:121:41)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+Chrome 145.0.0.0 (Windows 10): Executed 70 of 213[31m (7 FAILED)[39m (0 secs / 2.262 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) Seeker ProfileComponent parsedSkills / parsedEducation / parsedExperience should parse education from resume educationList FAILED[39m
+	Expected 0 to be 1.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/profile/profile.component.spec.ts:125:48)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	Expected undefined to be 'B.Tech'.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/profile/profile.component.spec.ts:126:44)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+Chrome 145.0.0.0 (Windows 10): Executed 71 of 213[31m (8 FAILED)[39m (0 secs / 2.27 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 72 of 213[31m (8 FAILED)[39m (0 secs / 2.275 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 73 of 213[31m (8 FAILED)[39m (0 secs / 2.282 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 74 of 213[31m (8 FAILED)[39m (0 secs / 2.288 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 75 of 213[31m (8 FAILED)[39m (0 secs / 2.38 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 76 of 213[31m (8 FAILED)[39m (0 secs / 2.4 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 77 of 213[31m (8 FAILED)[39m (0 secs / 2.428 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 78 of 213[31m (8 FAILED)[39m (0 secs / 2.452 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 79 of 213[31m (8 FAILED)[39m (0 secs / 2.48 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 80 of 213[31m (8 FAILED)[39m (0 secs / 2.501 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 81 of 213[31m (8 FAILED)[39m (0 secs / 2.518 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 82 of 213[31m (8 FAILED)[39m (0 secs / 2.537 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 83 of 213[31m (8 FAILED)[39m (0 secs / 2.558 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 84 of 213[31m (8 FAILED)[39m (0 secs / 2.577 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 85 of 213[31m (8 FAILED)[39m (0 secs / 2.601 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 86 of 213[31m (8 FAILED)[39m (0 secs / 2.622 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 87 of 213[31m (8 FAILED)[39m (0 secs / 2.648 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 88 of 213[31m (8 FAILED)[39m (0 secs / 2.754 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) Seeker DashboardComponent groupedNotifications getter should group notifications by type FAILED[39m
+	Expected undefined to be 2.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/dashboard/dashboard.component.spec.ts:206:38)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+Chrome 145.0.0.0 (Windows 10): Executed 89 of 213[31m (9 FAILED)[39m (0 secs / 2.775 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 90 of 213[31m (9 FAILED)[39m (0 secs / 2.795 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 91 of 213[31m (9 FAILED)[39m (0 secs / 2.973 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 92 of 213[31m (9 FAILED)[39m (0 secs / 3.004 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 93 of 213[31m (9 FAILED)[39m (0 secs / 3.029 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 94 of 213[31m (9 FAILED)[39m (0 secs / 3.053 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 95 of 213[31m (9 FAILED)[39m (0 secs / 3.058 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) PostJobComponent onSubmit() should set isLoading = false on error FAILED[39m
+	Error: 2 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 96 of 213[31m (10 FAILED)[39m (0 secs / 3.265 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) PostJobComponent onSubmit() should call jobService.postJob with employerId when form and skills are valid FAILED[39m
+	Error: 3 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 97 of 213[31m (11 FAILED)[39m (0 secs / 3.351 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 98 of 213[31m (11 FAILED)[39m (0 secs / 3.384 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 99 of 213[31m (11 FAILED)[39m (0 secs / 3.413 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 100 of 213[31m (11 FAILED)[39m (0 secs / 3.446 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 101 of 213[31m (11 FAILED)[39m (0 secs / 3.478 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 102 of 213[31m (11 FAILED)[39m (0 secs / 3.507 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 103 of 213[31m (11 FAILED)[39m (0 secs / 3.536 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 104 of 213[31m (11 FAILED)[39m (0 secs / 3.561 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 105 of 213[31m (11 FAILED)[39m (0 secs / 3.587 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 106 of 213[31m (11 FAILED)[39m (0 secs / 3.615 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 107 of 213[31m (11 FAILED)[39m (0 secs / 3.641 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 108 of 213[31m (11 FAILED)[39m (0 secs / 3.672 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 109 of 213[31m (11 FAILED)[39m (0 secs / 3.701 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 110 of 213[31m (11 FAILED)[39m (0 secs / 3.737 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 111 of 213[31m (11 FAILED)[39m (0 secs / 3.748 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 112 of 213[31m (11 FAILED)[39m (0 secs / 3.764 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 113 of 213[31m (11 FAILED)[39m (0 secs / 3.776 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 114 of 213[31m (11 FAILED)[39m (0 secs / 3.783 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 115 of 213[31m (11 FAILED)[39m (0 secs / 3.82 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 116 of 213[31m (11 FAILED)[39m (0 secs / 3.825 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 117 of 213[31m (11 FAILED)[39m (0 secs / 3.834 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 118 of 213[31m (11 FAILED)[39m (0 secs / 3.841 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 119 of 213[31m (11 FAILED)[39m (0 secs / 4.016 secs)
+[1A[2KWARN: [36m'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'[39m
+Chrome 145.0.0.0 (Windows 10): Executed 119 of 213[31m (11 FAILED)[39m (0 secs / 4.016 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) RegisterComponent sendOtp() should set isSendingOtp to false and otpSent stays false on error FAILED[39m
+	Error: 2 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 120 of 213[31m (12 FAILED)[39m (0 secs / 4.091 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) RegisterComponent sendOtp() should call authService.sendOtp with valid email and start countdown FAILED[39m
+	Error: 3 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 121 of 213[31m (13 FAILED)[39m (0 secs / 4.169 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 122 of 213[31m (13 FAILED)[39m (0 secs / 4.226 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 123 of 213[31m (13 FAILED)[39m (0 secs / 4.263 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 124 of 213[31m (13 FAILED)[39m (0 secs / 4.307 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 125 of 213[31m (13 FAILED)[39m (0 secs / 4.338 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 126 of 213[31m (13 FAILED)[39m (0 secs / 4.382 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 127 of 213[31m (13 FAILED)[39m (0 secs / 4.413 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 128 of 213[31m (13 FAILED)[39m (0 secs / 4.442 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 129 of 213[31m (13 FAILED)[39m (0 secs / 4.465 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 130 of 213[31m (13 FAILED)[39m (0 secs / 4.497 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 131 of 213[31m (13 FAILED)[39m (0 secs / 4.561 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 132 of 213[31m (13 FAILED)[39m (0 secs / 4.658 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) RegisterComponent onSubmit() should include otpCode in register payload when all conditions met FAILED[39m
+	Error: 3 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 133 of 213[31m (14 FAILED)[39m (0 secs / 4.719 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 134 of 213[31m (14 FAILED)[39m (0 secs / 4.784 secs)
+[1A[2KWARN: [36m'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'[39m
+Chrome 145.0.0.0 (Windows 10): Executed 134 of 213[31m (14 FAILED)[39m (0 secs / 4.784 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 135 of 213[31m (14 FAILED)[39m (0 secs / 4.815 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 136 of 213[31m (14 FAILED)[39m (0 secs / 4.873 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 137 of 213[31m (14 FAILED)[39m (0 secs / 4.892 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 138 of 213[31m (14 FAILED)[39m (0 secs / 4.897 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 139 of 213[31m (14 FAILED)[39m (0 secs / 4.903 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 140 of 213[31m (14 FAILED)[39m (0 secs / 4.908 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 141 of 213[31m (14 FAILED)[39m (0 secs / 4.914 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 142 of 213[31m (14 FAILED)[39m (0 secs / 4.918 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 143 of 213[31m (14 FAILED)[39m (0 secs / 4.921 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 144 of 213[31m (14 FAILED)[39m (0 secs / 4.925 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 145 of 213[31m (14 FAILED)[39m (0 secs / 4.93 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 146 of 213[31m (14 FAILED)[39m (0 secs / 4.934 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 147 of 213[31m (14 FAILED)[39m (0 secs / 4.939 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 148 of 213[31m (14 FAILED)[39m (0 secs / 4.942 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 149 of 213[31m (14 FAILED)[39m (0 secs / 4.946 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 150 of 213[31m (14 FAILED)[39m (0 secs / 4.951 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 151 of 213[31m (14 FAILED)[39m (0 secs / 4.955 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 152 of 213[31m (14 FAILED)[39m (0 secs / 5.008 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 153 of 213[31m (14 FAILED)[39m (0 secs / 5.031 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 154 of 213[31m (14 FAILED)[39m (0 secs / 5.044 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 155 of 213[31m (14 FAILED)[39m (0 secs / 5.12 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 156 of 213[31m (14 FAILED)[39m (0 secs / 5.145 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 157 of 213[31m (14 FAILED)[39m (0 secs / 5.262 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 158 of 213[31m (14 FAILED)[39m (0 secs / 5.28 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 159 of 213[31m (14 FAILED)[39m (0 secs / 5.293 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 160 of 213[31m (14 FAILED)[39m (0 secs / 5.308 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 161 of 213[31m (14 FAILED)[39m (0 secs / 5.322 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 162 of 213[31m (14 FAILED)[39m (0 secs / 5.337 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 163 of 213[31m (14 FAILED)[39m (0 secs / 5.353 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 164 of 213[31m (14 FAILED)[39m (0 secs / 5.371 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 165 of 213[31m (14 FAILED)[39m (0 secs / 5.391 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 166 of 213[31m (14 FAILED)[39m (0 secs / 5.404 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 167 of 213[31m (14 FAILED)[39m (0 secs / 5.41 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 168 of 213[31m (14 FAILED)[39m (0 secs / 5.415 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 169 of 213[31m (14 FAILED)[39m (0 secs / 5.418 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 170 of 213[31m (14 FAILED)[39m (0 secs / 5.43 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 171 of 213[31m (14 FAILED)[39m (0 secs / 5.435 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 172 of 213[31m (14 FAILED)[39m (0 secs / 5.44 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 173 of 213[31m (14 FAILED)[39m (0 secs / 5.445 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 174 of 213[31m (14 FAILED)[39m (0 secs / 5.453 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 175 of 213[31m (14 FAILED)[39m (0 secs / 5.457 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 176 of 213[31m (14 FAILED)[39m (0 secs / 5.461 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 177 of 213[31m (14 FAILED)[39m (0 secs / 5.468 secs)
+[1A[2KERROR: [36mError: NG04002: Cannot match any routes. URL Segment: 'auth/login'
+Error: NG04002: Cannot match any routes. URL Segment: 'auth/login'
+    at Recognizer.noMatchError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3780:16)
+    at selector (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3810:28)
+    at onError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/catchError.js:10:39)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js:23:21)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)[39m
+Chrome 145.0.0.0 (Windows 10): Executed 177 of 213[31m (14 FAILED)[39m (0 secs / 5.468 secs)
+ERROR: Error: NG04002: Cannot match any routes. URL Segment: 'auth/login'
+Error: NG04002: Cannot match any routes. URL Segment: 'auth/login'
+    at Recognizer.noMatchError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3780:16)
+    at selector (http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/router/fesm2022/router.mjs:3810:28)
+    at onError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/catchError.js:10:39)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js:23:21)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+    at OperatorSubscriber.error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:40:18)
+    at OperatorSubscriber._error (http://localhost:9876/_karma_webpack_/webpack:/node_modules/rxjs/dist/esm/internal/Subscriber.js:64:30)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 178 of 213[31m (14 FAILED)[39m (0 secs / 5.476 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 179 of 213[31m (14 FAILED)[39m (0 secs / 5.489 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 180 of 213[31m (14 FAILED)[39m (0 secs / 5.495 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 181 of 213[31m (14 FAILED)[39m (0 secs / 5.503 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 182 of 213[31m (14 FAILED)[39m (0 secs / 5.508 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 183 of 213[31m (14 FAILED)[39m (0 secs / 5.577 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 184 of 213[31m (14 FAILED)[39m (0 secs / 5.616 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 185 of 213[31m (14 FAILED)[39m (0 secs / 5.659 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 186 of 213[31m (14 FAILED)[39m (0 secs / 5.685 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 187 of 213[31m (14 FAILED)[39m (0 secs / 5.718 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 188 of 213[31m (14 FAILED)[39m (0 secs / 5.762 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) Employer DashboardComponent duplicateJob() should call postJob with title containing (Copy) FAILED[39m
+	Error: 3 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 189 of 213[31m (15 FAILED)[39m (0 secs / 5.842 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 190 of 213[31m (15 FAILED)[39m (0 secs / 5.86 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 191 of 213[31m (15 FAILED)[39m (0 secs / 5.878 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 192 of 213[31m (15 FAILED)[39m (0 secs / 5.897 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 193 of 213[31m (15 FAILED)[39m (0 secs / 5.901 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 194 of 213[31m (15 FAILED)[39m (0 secs / 5.904 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 195 of 213[31m (15 FAILED)[39m (0 secs / 5.909 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 196 of 213[31m (15 FAILED)[39m (0 secs / 5.913 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 197 of 213[31m (15 FAILED)[39m (0 secs / 5.95 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 198 of 213[31m (15 FAILED)[39m (0 secs / 5.953 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 199 of 213[31m (15 FAILED)[39m (0 secs / 5.957 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 200 of 213[31m (15 FAILED)[39m (0 secs / 5.962 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 201 of 213[31m (15 FAILED)[39m (0 secs / 5.967 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 202 of 213[31m (15 FAILED)[39m (0 secs / 5.972 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 203 of 213[31m (15 FAILED)[39m (0 secs / 5.976 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 204 of 213[31m (15 FAILED)[39m (0 secs / 5.98 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 205 of 213[31m (15 FAILED)[39m (0 secs / 5.984 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 206 of 213[31m (15 FAILED)[39m (0 secs / 5.987 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 207 of 213[31m (15 FAILED)[39m (0 secs / 5.99 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 208 of 213[31m (15 FAILED)[39m (0 secs / 6.026 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) SavedJobsComponent should handle error gracefully when loading saved jobs FAILED[39m
+	Expected 2 to be 0.
+	    at <Jasmine>
+	    at UserContext.apply (src/app/features/seeker/saved-jobs/saved-jobs.component.spec.ts:65:40)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+Chrome 145.0.0.0 (Windows 10): Executed 209 of 213[31m (16 FAILED)[39m (0 secs / 6.039 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 210 of 213[31m (16 FAILED)[39m (0 secs / 6.05 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) SavedJobsComponent unsaveJob() should keep remaining jobs after unsave FAILED[39m
+	Error: 3 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 211 of 213[31m (17 FAILED)[39m (0 secs / 6.096 secs)
+[1A[2K[31mChrome 145.0.0.0 (Windows 10) SavedJobsComponent unsaveJob() should remove job from savedJobs list after unsave FAILED[39m
+	Error: 3 timer(s) still in the queue.
+	    at UserContext.apply (node_modules/zone.js/fesm2015/zone-testing.js:1719:27)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:369:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2081:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:368:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:111:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome 145.0.0.0 (Windows 10): Executed 212 of 213[31m (18 FAILED)[39m (0 secs / 6.133 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 213 of 213[31m (18 FAILED)[39m (0 secs / 6.259 secs)
+[1A[2KChrome 145.0.0.0 (Windows 10): Executed 213 of 213[31m (18 FAILED)[39m (7.839 secs / 6.259 secs)
+[31mTOTAL: 18 FAILED, 195 SUCCESS[39m
+√ Browser application bundle generation complete.
+10 03 2026 11:15:57.616:WARN [launcher]: Chrome was not killed in 2000 ms, sending SIGKILL.
+10 03 2026 11:15:59.634:WARN [launcher]: Chrome was not killed by SIGKILL in 2000 ms, continuing.
+√ Browser application bundle generation complete.

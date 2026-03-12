@@ -1,0 +1,14 @@
+Chrome 145.0.0.0 (Windows 10) SavedJobsComponent should handle error gracefully when loading saved jobs FAILED
+Chrome 145.0.0.0 (Windows 10) JobListComponent triggerInstantSearch() should debounce and call onSearch after 300ms FAILED
+Chrome 145.0.0.0 (Windows 10) LoginComponent onSubmit() should call authService.login with form values FAILED
+	Error: Uncaught (in promise): TypeError: this.authService.isEmployer is not a function
+	TypeError: this.authService.isEmployer is not a function
+	error properties: Object({ throwOriginal: true, rejection: TypeError: this.authService.isEmployer is not a function, promise: [object Promise], zone: ZoneImpl({ _parent: ZoneImpl({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: _ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), _zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }), _name: 'ProxyZone', _properties: Object({ ProxyZon ...
+Chrome 145.0.0.0 (Windows 10) Seeker ProfileComponent should load profile and resume on init FAILED
+Chrome 145.0.0.0 (Windows 10) Seeker ProfileComponent parsedSkills / parsedEducation / parsedExperience should parse skills from resume skillsList FAILED
+Chrome 145.0.0.0 (Windows 10) Seeker ProfileComponent parsedSkills / parsedEducation / parsedExperience should parse experience from resume experienceList FAILED
+Chrome 145.0.0.0 (Windows 10) Seeker ProfileComponent parsedSkills / parsedEducation / parsedExperience should parse education from resume educationList FAILED
+Chrome 145.0.0.0 (Windows 10) Seeker ProfileComponent profileStrength getter should return 100 when all fields complete FAILED
+Chrome 145.0.0.0 (Windows 10) Seeker DashboardComponent groupedNotifications getter should group notifications by type FAILED
+Chrome 145.0.0.0 (Windows 10) RegisterComponent countdown timer should decrement countdown each second FAILED
+TOTAL: 10 FAILED, 203 SUCCESS

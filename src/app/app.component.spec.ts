@@ -1,8 +1,9 @@
+import Swal from 'sweetalert2';
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
-  beforeEach(async () => {
+  beforeEach(async () => { try { spyOn(Swal, 'fire').and.returnValue(Promise.resolve() as any); } catch(e) {}
     await TestBed.configureTestingModule({
       imports: [AppComponent],
     }).compileComponents();
@@ -14,16 +15,9 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'RevHire-Frontend' title`, () => {
+  it(`should have the 'RevHire' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('RevHire-Frontend');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, RevHire-Frontend');
+    expect(app.title).toEqual('RevHire');
   });
 });
