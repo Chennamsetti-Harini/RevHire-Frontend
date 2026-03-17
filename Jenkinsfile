@@ -18,7 +18,11 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'npm install'
+                bat 'npm config set fetch-retry-mintimeout 20000'
+                bat 'npm config set fetch-retry-maxtimeout 120000'
+                bat 'npm config set fetch-retries 5'
+                bat 'npm config set legacy-peer-deps true'
+                bat 'npm install --prefer-offline'
             }
             post {
                 success { echo 'dependencies installed' }
