@@ -18,11 +18,14 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
+                bat 'npm config set registry https://registry.npmjs.org/'
                 bat 'npm config set fetch-retry-mintimeout 20000'
                 bat 'npm config set fetch-retry-maxtimeout 120000'
-                bat 'npm config set fetch-retries 5'
+                bat 'npm config set fetch-retries 10'
+                bat 'npm config set fetch-timeout 300000'
                 bat 'npm config set legacy-peer-deps true'
-                bat 'npm install --prefer-offline'
+                bat 'npm cache clean --force'
+                bat 'npm install'
             }
             post {
                 success { echo 'dependencies installed' }
