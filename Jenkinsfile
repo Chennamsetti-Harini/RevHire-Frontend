@@ -46,7 +46,7 @@ pipeline {
                 sshPublisher(
                     publishers: [
                         sshPublisherDesc(
-                            configName: 'ec2-angular',
+                            configName: 'ec2-server',
                             transfers: [
                                 sshTransfer(
                                     sourceFiles: 'dist/rev-hire-frontend/browser/**',
