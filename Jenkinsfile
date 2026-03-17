@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'NodeJS'
+        nodejs 'NodeJs'
     }
 
     stages {
@@ -39,7 +39,7 @@ pipeline {
                 sshPublisher(
                     publishers: [
                         sshPublisherDesc(
-                            configName: 'ec2-server',
+                            configName: 'ec2-angular',
                             transfers: [
                                 sshTransfer(
                                     sourceFiles: 'dist/rev-hire-frontend/browser/**',
